@@ -11,14 +11,13 @@ public class Main {
         Scanner kb = new Scanner(System.in);
         word1 = kb.next();
 
-        System.out.println("Type word two");
+        System.out.println("Type word two:");
         word2 = kb.next();
 
         if(word1.length() != word2.length()){
             System.out.println(word1 + " and " +  word2 + " are not anagrams!");
         }
         else{
-
             char[] wordone = word1.toCharArray();
             char[] wordtwo = word2.toCharArray();
 
